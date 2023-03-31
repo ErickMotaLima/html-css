@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    height: 100%;
+      background-image: linear-gradient(to right,#5d9c36, #8de059, #73ca3d);
+}
+
+h1 {
+    color: #721F8F;
+}
+
+h1#principal {
+    text-align: center;
+    
+}
+
+h2  {
+    color: hsl(284, 44%, 47%);
+}
+
+p  {
+    
+}
+
+.basico {
+    color: #8f1f1f;
+    
+
+}
+
+.intermediario {
+    color: #ffffff;
+
+}
+
+.avançado {
+    color: #000000;
+
+
+}

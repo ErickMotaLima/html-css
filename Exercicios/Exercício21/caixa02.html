@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: justify;
+            background-color: #DCDBBB;
+            margin: 0px;
+        }
+
+        h1 {
+            text-align: center;
+
+        }
+
+        header {
+            background-color: #FFFED4;
+            margin: 5px 5px 20px 5px;
+            height: 90px;
+        }
+
+        header > nav > a {
+            text-decoration: none;
+            margin: 5px 5px 5px 5px;
+            padding: 2px 2px 2px 2px;
+        }
+
+        header > nav {
+            box-shadow: 2px 2px 2px 2px rgba(54, 54, 54, 0.151);
+            background-color: #a0a6ac;
+            height: 20px;
+            text-align: right;
+
+        }
+
+        header > nav > a:active {
+            color: forestgreen;
+            text-decoration: underline;
+            
+        }
+
+        #futebol {
+            border-style: none;
+            border-radius: 0px;
+            margin: auto auto 10px auto;
+            padding: 10px 10px 10px 10px;
+            height: 200px;
+            box-shadow: none;
+            
+        }
+
+        #assuntos {
+            background-color: #cdd4dad3;
+            text-align: justify;
+        }
+        #assuntos > h2 {
+            text-align: center;
+            background-color: #a0a6ac;
+        }
+
+        #assuntos > p {
+            text-indent: 20px;
+        }
+
+        main {
+            border-radius: 15px;
+            background-color: #f0f8ff;
+            height: 330px;
+            width: 600px;
+            border-style: solid;
+            margin: auto;
+            box-shadow: 2px 2px 2px rgba(46, 45, 45, 0.329);
+        }
+
+        main > article > section > h2 {
+            background-color: #a0a6ac;
+            
+        }
+
+        main > section {
+            margin: 0px 10px 0px 10px;
+            background-color: #cdd4dad3;
+        }
+
+
+        main > section > article > h2 {
+            text-align: center;
+        }
+
+        main > section > article > p {
+            text-indent: 15px;
+            text-align: justify;
+        }
+
+        main > section > article > aside > p {
+            text-align: right;
+            background-color: #a0a6ac;
+        }
+
+        footer {
+            background-color: black;
+            color: aliceblue;
+            padding: 10px 10px 10px 10px;
+            margin: 20px 0px 10px 0px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav><a href="#">link </a>
+            <a href="#">link </a>
+            <a href="#">link </a>
+            <a href="#">link </a>
+            <a href="#">link </a>
+        </nav>
+    </header>
+    <main id="futebol">
+        <section id="assuntos">
+            <h2>melhores do mundo do futebol</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quia, illo modi vitae delectus deserunt beatae expedita ex saepe numquam porro, eaque recusandae, ea similique laborum enim perspiciatis vero ipsa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ducimus qui obcaecati sunt laudantium suscipit. Quibusdam, eaque ducimus saepe alias ab commodi mollitia quod, at dignissimos molestiae obcaecati animi? Laudantium.</p>
+        </section>
+        </main>
+    <main>
+        <section id="noticias">
+            <article>
+                    <h2>Noticias sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta aspernatur maiores nostrum et, voluptate eveniet! Rem, ullam atque animi maiores, dolorum magnam accusamus ipsum est numquam doloribus molestiae. Ipsa, blanditiis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt quos perspiciatis quisquam dolorum pariatur earum repellat aliquid iusto porro quia accusamus, eligendi fugiat tempore doloribus quibusdam, corporis beatae recusandae neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi commodi, tenetur itaque, nobis excepturi quis quae harum perferendis, ad fugit! In ea corrupti non maiores expedita sequi quisquam quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis soluta molestiae cumque quaerat minus quibusdam quo illum, ea, odit ipsa veritatis autem amet pariatur numquam eaque architecto asperiores commodi laudantium.</p>
+                    <aside>
+                        <p>
+                            Artigo escrito por José da Silva
+                        </p>
+                    </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Eren</p>
+    </footer>
+</body>
+</html>
