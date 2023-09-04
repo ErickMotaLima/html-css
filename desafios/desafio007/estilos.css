@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1: rgba(82, 70, 70, 0.247);
+    --cor2: white;
+    --cor3: red;
+    --cor4: green;
+    --cor5: blue;
+}
+
+body {
+    background-color: var(--cor1);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    background-image: linear-gradient( to top, var(--cor1), var(--cor3));
+    text-align: center;
+    min-height: 150px;
+
+}
+
+header > h1 {
+    padding-top: 40px;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: normal;
+    text-shadow: 2px 1px 3px green;
+     
+}
+
+header > p {
+    color:antiquewhite;
+
+    
+    
+}
